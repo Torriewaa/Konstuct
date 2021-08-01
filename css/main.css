@@ -1,0 +1,419 @@
+/* Specification */
+
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	src: url('../fonts/bebas_neue_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/bebas_neue_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/bebas_neue_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/bebas_neue_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/bebas_neue_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/bebas_neue_bold.svg#bebas_neue_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	object-fit: cover;
+}
+.container {
+    width: 941px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Bebas Neue Bold', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 5.70937px;
+}
+
+h3 {
+    font-size: 18px;
+    letter-spacing: 2.30625px;
+}
+
+.blue {
+    color: #16ACE8;
+}
+
+/* HEADER */
+
+header {
+    background: url('../img/bg.jpg') no-repeat center top / cover;
+    padding: 41px 0 71px;
+}
+
+.logo {
+    width: 102px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-offer {
+    width: 581px;
+    margin: 317px auto 221px;
+}
+
+.header-offer__text {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.scroll {
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    display: flex;
+    width: 120px;
+    margin: 0 auto;
+    letter-spacing: 3.7px;
+}
+
+/* NAVIGATION */
+
+.nav-wrapper {
+    border: 1px solid #E6E6E6;
+    padding: 24px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    width: 411px;
+    justify-content: space-between;
+}
+
+.menu__link {
+    color: #48555B;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.menu__link:hover {
+    color: #00a4e5;
+}
+
+/* SECTION: OUR STORY */
+
+.story {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.31px;
+}
+
+.line {
+    border-bottom: 2px solid #00A4E5;
+    width: 50px;
+    margin: 10px auto 55px;
+}
+
+.story-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__text_bold {
+    line-height: 27px;
+    width: 405px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.17px;
+}
+
+.wrapper__text {
+    width: 405px;
+    font-size: 13px;
+    line-height: 1.77;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    margin-top: 60px;
+}
+
+.wrapper__right {
+    margin-top: 30px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__right img {
+    width: 124px;
+    height: 224px;
+}
+
+/* SECTION: CAPABILITIES */
+
+.capabilities {
+    padding: 60px 0 120px;
+}
+
+.line2 {
+    border-bottom: 2px solid #00A4E5;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.capabilities-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__other {
+    display: flex;
+    width: 587px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__text {
+    font-size: 11px;
+    width: 405px;
+    letter-spacing: 0.2px;
+}
+
+.top__btn {
+    width: 86px;
+    height: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 11px 29px;
+    display: flex;
+    background: #00A4E5;
+}
+
+.btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 11px 29px;
+    display: flex;
+    background: #00A4E5;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    background: #01709c;   
+}
+
+.cards {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 76px;
+}
+
+.cards__item {
+    width: 250px;
+    padding: 39px 23px;
+    border: 1px solid #E6E6E6;
+}
+
+.cards__title {
+    font-size: 16px;
+    width: 250px;
+    margin: 25px 0 13px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+
+.cards__text {
+    line-height: 23px;
+    font-size: 13px;
+    width: 250px;
+}
+
+/* SECTION: TRY */
+
+.try {
+    background: url('../img/bg4.jpg') no-repeat center top / cover;
+    padding: 120px 0 231px;
+}
+
+.try-title {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.try-btn {
+    width: 92px;
+    height: 18px;
+    margin: 35px auto 0;
+}
+
+/* SECTION: SIGNUP */
+
+.signup {
+    background: #171819;
+    padding: 30px 0;
+}
+
+.signup-wrapper {
+    width: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.signup-title {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.846154px;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form__input {
+    width: 136px;
+    padding: 10px 98px 11px 16px;
+}
+
+.form__btn {
+    background: #00a4e5;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #141A20;
+    padding: 41px 0;
+}
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+}
+
+.company img {
+    margin: 19px 0 15px;
+}
+
+.company__text {
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    width: 250px;
+    color: #fff;
+}
+
+.link {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    margin-top: 10px;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.link:hover {
+    color: #6d6d6d;
+}
+
+.blog, .faq {
+    display: block;
+    margin: 25px;
+}
+
+.contacts__adress {
+    margin-top: 15px;
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 0.846154px;
+}
+
+.contacts {
+    display: block;
+}
+
+.contacts__adress {
+    width: 141px;
+    display: block;
+}
+
+.contacts__number {
+    display: block;
+    margin: 15px 0;
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 0.846154px;
+}
+
+.contacts__email {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 0.846154px;
+}
+
+.soc {
+    margin-top: 30px;
+    display: flex;
+    width: 87px;
+    justify-content: space-between;
+}
+
+.soc img {
+    width: 12px;
+    height: 12px;
+}
